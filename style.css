@@ -1,0 +1,28 @@
+p {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    line-height: 1;
+    font-size: .75em;
+}
+#instructions-container {
+    display: flex;
+    font-size: .80em;
+}
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+.right-column {
+    display: flex;
+    flex-direction: column;
+
+  
+}
+#num-guesses {
+    display: inline;
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+
+}

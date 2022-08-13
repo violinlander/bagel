@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bagels</title>
+    <link rel="stylesheet" href="style.css">
+
+	
+  </head>
+  <body>
+<p>I am thinking of a three digit number with no repeated digits. </p>
+  <p>Try to guess what it is. Here are some clues:</p>
+  <br>
+
+  <div id="instructions-container">
+<div id="left-column">
+<p>When I say:&emsp;</p>
+<p>Pico</p>
+<p>Fermi</p>
+<p>Bagels</p>
+</div>
+<div id="right-column">
+<p>That means:</p>
+<p>The one digit is correct but in the wrong position.</p>
+<p>One digit is correct and in the right position.</p>
+<p>No digit is correct.</p>
+</div>
+</div>
+<br>
+<p>For example, if the secret number were 248 and your guess was 843, the clues would be Fermi Pico.</p>
+<p>I have thought of a number.</p>
+<p>You have 10 guesses to get it.</p>
+<br>
+<p>Please enter a 3 digit number.</p>
+<br>
+<form>
+  <label for="guess">Your guess:</label>
+<input type="text" id="guess" name="guess" value=""/>
+<button type='submit' id="submit-button">submit</button>
+</form>
+<div id="guesses-remaining">You have <div id="num-guesses">10</div> guesses remaining.</div>
+
+
+
+
+<!--Display the guesses and clues as you play-->
+<div id="clue-message"></div>
+<button id="reset-button">Reset</button>
+
+
+<script src="index.js"></script>
+
+  </body>
+</html>
